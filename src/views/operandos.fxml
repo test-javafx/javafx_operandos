@@ -12,7 +12,7 @@
       <Label layoutX="32.0" layoutY="87.0" text="Operando 2" />
       <TextField fx:id="txtOperando1" layoutX="131.0" layoutY="38.0" />
       <TextField fx:id="txtOperando2" layoutX="131.0" layoutY="90.0" />
-      <Button fx:id="btnCalcular" layoutX="131.0" layoutY="139.0" mnemonicParsing="false" onAction="#calcular" prefHeight="26.0" prefWidth="171.0" text="Calcular" />
+      <Button layoutX="131.0" layoutY="139.0" mnemonicParsing="false" onAction="#calcular" prefHeight="26.0" prefWidth="171.0" text="Calcular" />
       <RadioButton fx:id="rdbSuma" layoutX="132.0" layoutY="193.0" mnemonicParsing="false" text="Suma" />
       <RadioButton fx:id="rdbResta" layoutX="132.0" layoutY="228.0" mnemonicParsing="false" text="Resta" />
       <RadioButton fx:id="rdbDivision" layoutX="226.0" layoutY="193.0" mnemonicParsing="false" text="División" />
